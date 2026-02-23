@@ -23,6 +23,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skf.ProductAssistant.Tests"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skf.ProductAssitant.Plugins", "Skf.ProductAssitant.Plugins\Skf.ProductAssitant.Plugins.csproj", "{F3E90BE5-5B9A-4384-AB93-8F7A7E08E184}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E725D7A3-AC26-48C6-A6B8-F1E8F7F5CDEB}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		dockerfile = dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
