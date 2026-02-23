@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Skf.ProductAssistant.Agents\Skf.ProductAssistant.Agents.csproj" />
+    <ProjectReference Include="..\Skf.ProductAssistant.Services\Skf.ProductAssistant.Services.csproj" />
+    <ProjectReference Include="..\Skf.ProductAssistant.State\Skf.ProductAssistant.State.csproj" />
+  </ItemGroup>
+
+</Project>
